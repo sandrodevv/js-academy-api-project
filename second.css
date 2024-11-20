@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body .bodyCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 928px;
+  background-color: #272727;
+}
+body .bodyCont .bigc {
+  outline: 2px solid #272727;
+  border-radius: 5px;
+  box-shadow: 0 0px 20px rgba(255, 166, 0, 0.5960784314);
+  transition: 1s;
+  width: 50%;
+  height: 860px;
+}
+body .bodyCont .bigc:hover {
+  box-shadow: 0 0px 35px rgba(255, 166, 0, 0.7529411765);
+  transition: 1s;
+  cursor: default;
+}
+body .bodyCont .bigc .cont .img {
+  height: 400px;
+}
+body .bodyCont .bigc .cont .img .slide .carousel-inner .carousel-item img {
+  height: 515px !important;
+}
+body .bodyCont .detailsAuto {
+  margin-top: 135px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+body .bodyCont .detailsAuto .mainTitle {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+  font-size: 40px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: white;
+}
+body .bodyCont .detailsAuto .mainTitle .brand {
+  transition: 1s;
+}
+body .bodyCont .detailsAuto .mainTitle .brand:hover {
+  color: rgba(255, 166, 0, 0.5960784314);
+  transition: 1s;
+}
+body .bodyCont .detailsAuto .mainTitle .model {
+  transition: 1s;
+}
+body .bodyCont .detailsAuto .mainTitle .model:hover {
+  transition: 1s;
+  color: rgba(255, 166, 0, 0.5960784314);
+}
+body .bodyCont .detailsAuto .infoMain .info1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: white;
+}
+body .bodyCont .detailsAuto .infoMain .info1 .location {
+  transition: 1s;
+}
+body .bodyCont .detailsAuto .infoMain .info1 .location:hover {
+  transition: 1s;
+  color: rgba(255, 166, 0, 0.5960784314);
+}
+body .bodyCont .detailsAuto .infoMain .info1 .fuel {
+  transition: 1s;
+}
+body .bodyCont .detailsAuto .infoMain .info1 .fuel:hover {
+  transition: 1s;
+  color: rgba(255, 166, 0, 0.5960784314);
+}
+body .bodyCont .detailsAuto .infoMain .info1 .price {
+  transition: 1s;
+}
+body .bodyCont .detailsAuto .infoMain .info1 .price:hover {
+  transition: 1s;
+  color: rgba(255, 166, 0, 0.5960784314);
+}
+body .bodyCont .detailsAuto .infoMain .info2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: white;
+}
+body .bodyCont .detailsAuto .infoMain .info2 .transmission {
+  transition: 1s;
+}
+body .bodyCont .detailsAuto .infoMain .info2 .transmission:hover {
+  transition: 1s;
+  color: rgba(255, 166, 0, 0.5960784314);
+}
+body .bodyCont .detailsAuto .infoMain .info2 .capacity {
+  transition: 1s;
+}
+body .bodyCont .detailsAuto .infoMain .info2 .capacity:hover {
+  transition: 1s;
+  color: rgba(255, 166, 0, 0.5960784314);
+}
+body .bodyCont .detailsAuto .infoMain .info2 .year {
+  transition: 1s;
+}
+body .bodyCont .detailsAuto .infoMain .info2 .year:hover {
+  transition: 1s;
+  color: rgba(255, 166, 0, 0.5960784314);
+}
+
+@media (max-width: 1200px) {
+  body .bodyCont .bigc {
+    width: 70%;
+  }
+  body .bodyCont .detailsAuto .mainTitle {
+    font-size: 38px;
+  }
+}
+@media (max-width: 800px) {
+  body .bodyCont .bigc {
+    width: 80%;
+  }
+  body .bodyCont .detailsAuto .mainTitle {
+    font-size: 36px;
+  }
+}
+@media (max-width: 600px) {
+  body .bodyCont .bigc {
+    width: 94%;
+  }
+  body .bodyCont .detailsAuto .mainTitle {
+    font-size: 33px;
+  }
+}/*# sourceMappingURL=second.css.map */

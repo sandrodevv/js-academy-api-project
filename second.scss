@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body {
+
+  
+    
+    .bodyCont {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 928px;
+    background-color: #272727;
+    // flex-direction: column;
+    
+
+    .bigc {
+        outline: 2px solid #272727;
+        border-radius: 5px;
+        box-shadow: 0 0px 20px #ffa60098;;
+        transition: 1s;
+        width: 50%;
+        height: 860px;
+        &:hover {
+            box-shadow: 0 0px 35px #ffa600c0;;
+            transition: 1s;
+            cursor: default;
+        }
+        .cont {
+            .img {
+                
+                height:400px;
+                .slide {
+                    .carousel-inner {
+                        .carousel-item {
+                            
+                            img {
+                                height: 515px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .detailsAuto {
+        
+        margin-top: 135px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+        .mainTitle {
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            height: 60px;
+            align-items: center;
+            font-size: 40px;
+            font-family: Montserrat;
+                font-weight: 600;
+                color: white;
+                .brand {
+                    transition: 1s;
+                    &:hover {
+                        color: #ffa60098;
+                        transition: 1s;
+                    }
+                }
+                .model {
+                    transition: 1s;
+                    &:hover {
+                        transition: 1s;
+                        color: #ffa60098;
+                    }
+                }
+        }
+        .infoMain {
+            
+            .info1 {
+            
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: Montserrat;
+                font-weight: 600;
+                color: white;
+                .location {
+                    transition: 1s;
+                    &:hover {
+                        transition: 1s;
+                        color: #ffa60098;
+                    }
+                }
+                .fuel {
+                    transition: 1s;
+                    &:hover {
+                        transition: 1s;
+                        color: #ffa60098;
+                    }
+                }
+                .price {
+                    transition: 1s;
+                    &:hover {
+                        transition: 1s;
+                        color: #ffa60098;
+                    }
+                }
+            }
+            .info2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: Montserrat;
+                font-weight: 600;
+                color: white;
+                .transmission {
+                    transition: 1s;
+                    &:hover {
+                        transition: 1s;
+                        color: #ffa60098;
+                    }
+                }
+                .capacity{
+                    transition: 1s;
+                    &:hover {
+                        transition: 1s;
+                        color: #ffa60098;
+                    }
+                }
+                .year {
+                    transition: 1s;
+                    &:hover {
+                        transition: 1s;
+                        color: #ffa60098;
+                    }
+                }
+
+            }
+        }
+    }
+
+    }
+    
+    
+}
+
+@media (max-width: 1200px) {
+    body {
+        .bodyCont {
+            .bigc {
+                width: 70%;
+            }
+            .detailsAuto {
+                .mainTitle {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 800px) {
+    body {
+        .bodyCont {
+            .bigc {
+                width: 80%;
+            }
+            .detailsAuto {
+                .mainTitle {
+                    font-size: 36px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        .bodyCont {
+            .bigc {
+                width: 94%;
+            }
+            .detailsAuto {
+                .mainTitle {
+                    font-size: 33px;
+                }
+            }
+        }
+    }
+}
